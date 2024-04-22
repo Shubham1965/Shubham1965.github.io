@@ -1,13 +1,34 @@
 # Hi there! 👋 I'm Shubham Kamble
 
-🌍 Based in Aachen, Germany  
-📧 Reach me at: shubham.kamble@rwth-aachen.de  
-🔗 LinkedIn: [shubham-kamble007](https://github.com/shubham-kamble007)  
-
 ### About Me
 
-🎓 Currently pursuing my Master's in Robotic Systems Engineering at RWTH Aachen  
-💼 Passionate about software development, real-time systems, and robotics  
+I'm a passionate Roboticist based in Aachen, Germany. Currently pursuing my Master’s in Robotic Systems Engineering at RWTH Aachen. My academic journey has equipped me with skills in Optimal Control, Reinforcement Learning, Applied Numerical Optimization, and more.
+
+### 🔭 I’m currently working on ...
+
+- Devising and implementing innovative machine learning models for structured learning, specifically for industrial robots.
+- Integrating robotics hardware with ROS for research on reinforcement learning algorithms.
+
+### 🌱 I’m currently learning ...
+
+- Advanced techniques in Optimal Control and Machine Learning.
+- Exploring new frameworks and tools to enhance my development skills.
+
+### 👯 I’m looking to collaborate on ...
+
+- Projects involving robotics, controls, and real-time systems.
+- Open-source initiatives that promote innovation and collaboration.
+
+### 💬 Ask me about ...
+
+- Strategies for optimizing control systems and trajectory planning.
+- My journey as a student researcher.
+
+### 📫 How to reach me:
+
+- Email: shubham.kamble@rwth-aachen.de
+- GitHub: [shubham-kamble007](https://github.com/Shubham1965)
+- LinkedIn: [Shubham Kamble](https://www.linkedin.com/in/shubham-kamble007/)
 
 
 
