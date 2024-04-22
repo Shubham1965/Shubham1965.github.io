@@ -27,7 +27,7 @@ I'm a passionate Roboticist based in Aachen, Germany. Currently pursuing my Mast
 ### 📫 How to reach me:
 
 - Email: shubham.kamble@rwth-aachen.de
-- GitHub: [shubham-kamble007](https://github.com/Shubham1965)
+- GitHub: [Shubham Kamble](https://github.com/Shubham1965)
 - LinkedIn: [Shubham Kamble](https://www.linkedin.com/in/shubham-kamble007/)
 
 
