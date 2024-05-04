@@ -2,7 +2,7 @@
 
 ### About Me
 
-I'm a passionate Roboticist based in Aachen, Germany. Currently pursuing my Master’s in Robotic Systems Engineering at RWTH Aachen. My academic journey has equipped me with skills in Optimal Control, Reinforcement Learning, Applied Numerical Optimization, and more.
+I'm a passionate Roboticist based in Aachen, Germany. Currently pursuing my Master’s in Robotic Systems Engineering at RWTH Aachen. My academic journey has equipped me with skills in Optimal Control, Reinforcement Learning, Applied Numerical Optimization, Computer Vision and more.
 
 ### 🔭 I’m currently working on ...
 
