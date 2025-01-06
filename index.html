@@ -107,9 +107,7 @@
         <h1>Shubham Kamble</h1>
         <p>Robotics & AI Researcher · Open Source Enthusiast · Life-long Learner</p>
         <div class="social-icons">
-            <a href="https://github.com/Shubham1965" aria-label=GitHub>
-                <i class="fab fa-github fa-2x" aria-hidden=true>
-                </i></a>
+            <a href="https://github.com/Shubham1965" target="_blank">🐙</a>
             <a href="https://linkedin.com/in/shubham-kamble007/" target="_blank">▶️</a>
         </div>
 
@@ -136,5 +134,18 @@
             Let's connect!
         </p>
     </section>
+
+    <script>
+        // Smooth transition to About Section
+        document.getElementById('about-link').addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Hide Header
+            document.getElementById('header').style.transform = 'translateY(-100vh)';
+
+            // Show About Section
+            document.getElementById('about').style.transform = 'translateY(0)';
+        });
+    </script>
 </body>
 </html>
