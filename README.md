@@ -2,7 +2,7 @@
 
 ### About Me
 
-I'm a passionate Roboticist. My academic journey has equipped me with skills in Optimal Control, Reinforcement Learning, Applied Numerical Optimization, Machine Learning, Computer Vision and more.
+I'm a passionate Roboticist. My academic journey has equipped me with skills in System Identification, Optimal Control, Reinforcement Learning, Applied Numerical Optimization, Machine Learning, Computer Vision and more.
 
 <!--
 ### 🔭 I’m currently working on ...
@@ -18,7 +18,7 @@ I'm a passionate Roboticist. My academic journey has equipped me with skills in 
 
 ### 👯 I’m looking to collaborate on ...
 
-- Projects involving robotics, controls, and real-time systems.
+- Projects involving trajectory optimization, , controls, and real-time systems.
 - Open-source initiatives that promote innovation and collaboration.
 
 ### 💬 Ask me about ...
