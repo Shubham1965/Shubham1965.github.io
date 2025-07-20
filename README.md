@@ -18,7 +18,7 @@ I'm a passionate Roboticist. My academic journey has equipped me with skills in 
 
 ### 👯 I’m looking to collaborate on ...
 
-- Projects involving trajectory optimization, , controls, and real-time systems.
+- Projects involving trajectory optimization, controls, and real-time systems.
 - Open-source initiatives that promote innovation and collaboration.
 
 ### 💬 Ask me about ...
