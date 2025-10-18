@@ -399,6 +399,75 @@ body.dark-theme #theme-toggle {
     color: var(--accent-color);
 }
 
+/* Achievements grid styles */
+.achievements-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.achievement-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.achievement-card i {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.achievement-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Blog grid styles */
+.blog-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.blog-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.blog-card h3 {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.blog-card p {
+    margin: 0 1rem 1rem;
+    flex-grow: 1;
+}
+
+.blog-card a {
+    margin: 0 1rem 1.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-card a:hover {
+    color: var(--accent-color);
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name – Portfolio</title>
+    <!-- Document title updated to reflect Shubham's name -->
+    <title>Shubham Kamble – Portfolio</title>
     <!-- Import Google Fonts for a clean, modern look -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -16,19 +17,24 @@
     <!-- Inline background-image attribute ensures the hero image loads correctly when viewed via the file protocol. -->
     <header id="hero" style="background-image: url('img/hero.png')">
         <nav class="navbar">
-            <div class="logo">Your Name</div>
+            <!-- Updated logo to use the real name -->
+            <div class="logo">Shubham Kamble</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <!-- New navigation items for achievements and blog -->
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button id="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
         </nav>
         <div class="hero-content">
-            <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-            <p class="tagline">A passionate <strong>software developer</strong> &amp; <strong>robotics enthusiast</strong></p>
+            <!-- Introduce yourself with your real name and a succinct tagline -->
+            <h1>Hello, I'm <span class="highlight">Shubham Kamble</span></h1>
+            <p class="tagline">Robotics Controls Engineer bridging research and deployment</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
     </header>
@@ -39,15 +45,18 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <!-- Placeholder image for your portrait; replace with your own photo -->
-                    <img src="img/profile-placeholder.png" alt="Your portrait">
+                    <!-- Keep the placeholder portrait; feel free to replace with a real photo later -->
+                    <img src="img/profile-placeholder.png" alt="Portrait of Shubham Kamble">
                 </div>
                 <div class="about-text">
                     <p>
-                        Write a few sentences about yourself here. Introduce your background, your passion for
-                        robotics, AI or software development, and what drives you professionally. Mention any
-                        unique experiences that set you apart and emphasise your commitment to learning and
-                        innovation.
+                        I am a <strong>Robotics Controls Engineer</strong> with over four years of academic research,
+                        teaching and professional experience in real‑time robotics software, optimisation and
+                        machine learning. My work focuses on transitioning advanced algorithms from simulation to
+                        physical deployment, building ML pipelines and developing control frameworks for complex
+                        multi‑body robots. With strong mathematical foundations in system identification, optimal
+                        control and reinforcement learning, I strive to bridge the gap between theoretical
+                        research and real‑world robotics applications.
                     </p>
                 </div>
             </div>
@@ -59,26 +68,41 @@
         <div class="container">
             <h2>Skills</h2>
             <div class="skills-grid">
-                <!-- Example skill card; duplicate and replace icons/text to suit your abilities -->
+                <!-- Programming languages -->
                 <div class="skill-card">
-                    <i class="fab fa-python fa-2x"></i>
-                    <h3>Python</h3>
-                    <p>Experience with data analysis, machine learning and scripting.</p>
+                    <i class="fas fa-code fa-2x"></i>
+                    <h3>C++ & Python</h3>
+                    <p>High‑performance robotics, control algorithms and machine learning development.</p>
                 </div>
+                <!-- Control & optimisation -->
                 <div class="skill-card">
-                    <i class="fab fa-js-square fa-2x"></i>
-                    <h3>JavaScript</h3>
-                    <p>Building interactive web applications and user interfaces.</p>
+                    <i class="fas fa-cogs fa-2x"></i>
+                    <h3>Control &amp; Optimisation</h3>
+                    <p>Robot kinematics/dynamics, optimal control and trajectory optimisation techniques.</p>
                 </div>
+                <!-- Machine learning & RL -->
                 <div class="skill-card">
-                    <i class="fas fa-robot fa-2x"></i>
-                    <h3>Robotics</h3>
-                    <p>Controlling robotic systems and integrating sensors and actuators.</p>
+                    <i class="fas fa-brain fa-2x"></i>
+                    <h3>Machine Learning &amp; RL</h3>
+                    <p>Building ML pipelines and applying reinforcement learning to robotics.</p>
                 </div>
+                <!-- Frameworks & tools -->
                 <div class="skill-card">
-                    <i class="fas fa-database fa-2x"></i>
-                    <h3>Databases</h3>
-                    <p>Designing and querying relational &amp; NoSQL databases.</p>
+                    <i class="fas fa-toolbox fa-2x"></i>
+                    <h3>Frameworks &amp; Tools</h3>
+                    <p>PyTorch, JAX, Theano, ROS2, SIMULINK, Linux, Docker and Git.</p>
+                </div>
+                <!-- System identification -->
+                <div class="skill-card">
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <h3>System Identification</h3>
+                    <p>Inertial parameter estimation and dynamic modelling for robots.</p>
+                </div>
+                <!-- Soft skills -->
+                <div class="skill-card">
+                    <i class="fas fa-user-friends fa-2x"></i>
+                    <h3>Soft Skills</h3>
+                    <p>Independent learner, critical thinker, problem solver and communicator.</p>
                 </div>
             </div>
         </div>
@@ -89,58 +113,171 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="projects-grid">
-                <!-- Project card template -->
+                <!-- Advanced IK project -->
                 <div class="project-card">
-                    <img src="img/project-placeholder.png" alt="Project thumbnail">
-                    <h3>Project Title</h3>
-                    <p>Brief description of your project. Explain the problem it solves and the technologies used.</p>
+                    <img src="img/project-placeholder.png" alt="Advanced Inverse Kinematics for 7DOF Robot">
+                    <h3>Advanced Inverse Kinematics (7‑DOF)</h3>
+                    <p>Developed an iterative and redundancy‑resolving inverse kinematics solver using the pseudo‑inverse Jacobian, null‑space projection and secondary objectives.</p>
                     <a href="#" class="project-link">Learn more</a>
                 </div>
+                <!-- DDP regularization project -->
                 <div class="project-card">
-                    <img src="img/project-placeholder.png" alt="Project thumbnail">
-                    <h3>Another Project</h3>
-                    <p>A short summary of another project. Keep descriptions concise and engaging.</p>
+                    <img src="img/project-placeholder.png" alt="Regularization in Differential Dynamic Programming">
+                    <h3>Regularization in Differential Dynamic Programming</h3>
+                    <p>Improved regularisation methods for Differential Dynamic Programming, achieving faster convergence and stability with applications in autonomous driving.</p>
                     <a href="#" class="project-link">Learn more</a>
                 </div>
+                <!-- Condition number optimisation project -->
                 <div class="project-card">
-                    <img src="img/project-placeholder.png" alt="Project thumbnail">
-                    <h3>Third Project</h3>
-                    <p>This card can describe a research publication, open source contribution or hackathon entry.</p>
+                    <img src="img/project-placeholder.png" alt="Condition Number Optimization">
+                    <h3>Condition Number Optimisation</h3>
+                    <p>Optimised excitation trajectories to minimise the condition number of simplified regressor matrices based on specially designed trajectories.</p>
+                    <a href="#" class="project-link">Learn more</a>
+                </div>
+                <!-- Seminars project -->
+                <div class="project-card">
+                    <img src="img/project-placeholder.png" alt="Trajectory Optimisation & Learning‑based Control">
+                    <h3>Seminar Studies & Reviews</h3>
+                    <p>Analysed and presented research on online trajectory optimisation, Differential Dynamic Programming with regularisation and learning‑based control methods including AlphaGo and deep reinforcement learning.</p>
                     <a href="#" class="project-link">Learn more</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience/Education section -->
+    <!-- Experience & Education section -->
     <section id="experience" class="section light-bg">
         <div class="container">
-            <h2>Experience &amp; Education</h2>
+            <h2>Experience &amp; Education</h2>
             <div class="timeline">
-                <!-- Timeline entry template -->
+                <!-- Neura Robotics -->
                 <div class="timeline-item">
-                    <span class="timeline-date">2022 – Present</span>
+                    <span class="timeline-date">Sept 2024 – Present</span>
                     <div class="timeline-content">
-                        <h3>Job Title</h3>
-                        <h4>Company / Institution</h4>
-                        <p>Describe your role and responsibilities. Focus on achievements and the impact you made.</p>
+                        <h3>Robotics Controls Engineer</h3>
+                        <h4>Neura Robotics GmbH, Metzingen, Germany</h4>
+                        <p>Designed and implemented a dynamic identification framework for torque constants, rotor inertia, friction and inertial parameters; developed Fourier‑series‑based trajectory generation under Riemannian manifold constraints; created analytical inverse and forward kinematics solvers for humanoid robots; deployed advanced friction compensation algorithms and optimised genetic algorithm routines.</p>
                     </div>
                 </div>
+                <!-- WZL Research Assistant -->
                 <div class="timeline-item">
-                    <span class="timeline-date">2019 – 2021</span>
+                    <span class="timeline-date">Nov 2021 – Present</span>
                     <div class="timeline-content">
-                        <h3>Previous Position</h3>
-                        <h4>Organisation Name</h4>
-                        <p>Summarise what you worked on in this position. Mention any notable milestones.</p>
+                        <h3>Student Research Assistant</h3>
+                        <h4>Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen</h4>
+                        <p>Built ML pipelines (RNEA+FCNN, LNN) for structured learning of 6‑DOF industrial robot dynamics; integrated a Doosan Cobot M1013 with hardware peripherals on ROS for reinforcement‑learning‑based assembly automation; developed a SIMULINK inverse dynamics model for friction identification; designed a novel inertial parameter identification routine using low‑velocity excitation trajectories; created explainable AI models using Transformers and Captum for torque prediction interpretability; deployed research notebooks on RWTH JupyterHub with Docker.</p>
                     </div>
                 </div>
+                <!-- Student Assistant at IC Chair -->
                 <div class="timeline-item">
-                    <span class="timeline-date">2016 – 2019</span>
+                    <span class="timeline-date">Oct 2022 – Mar 2024</span>
                     <div class="timeline-content">
-                        <h3>PhD / Education</h3>
-                        <h4>University</h4>
-                        <p>Provide details of your degree, research topic or relevant coursework.</p>
+                        <h3>Student Assistant – Optimal Control &amp; Informatics</h3>
+                        <h4>Chair of Intelligent Control Systems, RWTH Aachen</h4>
+                        <p>Guided students in implementing control algorithms (PI, PID, MPC) on FloatShield apparatus using Arduino; prepared lecture notes on the Pontryagin Maximum Principle; graded and evaluated coursework for over 50 students; supported laboratory sessions on Kalman Filters, Model Predictive Control and Receding Horizon Control.</p>
                     </div>
+                </div>
+                <!-- Carnot Technologies -->
+                <div class="timeline-item">
+                    <span class="timeline-date">Aug 2018 – Aug 2019</span>
+                    <div class="timeline-content">
+                        <h3>Product R&amp;D Engineer (Mechatronic Systems)</h3>
+                        <h4>Carnot Technologies, Mumbai, India</h4>
+                        <p>Conceptualised and prototyped automation systems; developed functional prototypes aligned with ISO/IEC standards and generated Bills of Materials to streamline sourcing.</p>
+                    </div>
+                </div>
+                <!-- M.Sc. Education -->
+                <div class="timeline-item">
+                    <span class="timeline-date">Oct 2020 – May 2024</span>
+                    <div class="timeline-content">
+                        <h3>M.Sc. in Robotic Systems Engineering</h3>
+                        <h4>RWTH Aachen University, Germany</h4>
+                        <p>Completed coursework in optimal control, reinforcement learning, numerical optimisation, self‑driving vehicles, machine learning, computer vision and advanced robot kinematics/dynamics.</p>
+                    </div>
+                </div>
+                <!-- B.Tech Education -->
+                <div class="timeline-item">
+                    <span class="timeline-date">Aug 2014 – May 2018</span>
+                    <div class="timeline-content">
+                        <h3>B.Tech. in Mechanical Engineering</h3>
+                        <h4>Veermata Jijabai Technological Institute (VJTI), Mumbai, India</h4>
+                        <p>Studied mechatronics, automotive engineering, electrical drives, computational fluid dynamics and finite element methods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements section -->
+    <section id="achievements" class="section light-bg">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <!-- Dynamic identification -->
+                <div class="achievement-card">
+                    <i class="fas fa-bolt fa-2x"></i>
+                    <h3>Dynamic Identification Framework</h3>
+                    <p>Developed a comprehensive framework to estimate torque constants, rotor inertia, friction and inertial parameters of humanoid robots.</p>
+                </div>
+                <!-- Trajectory optimisation -->
+                <div class="achievement-card">
+                    <i class="fas fa-wave-square fa-2x"></i>
+                    <h3>Fourier‑Series Trajectory Generation</h3>
+                    <p>Implemented trajectory optimisation using Fourier‑series‑based generation under Riemannian manifold constraints.</p>
+                </div>
+                <!-- Kinematic solvers -->
+                <div class="achievement-card">
+                    <i class="fas fa-shapes fa-2x"></i>
+                    <h3>Analytical IK & FK Solvers</h3>
+                    <p>Designed closed‑chain inverse and forward kinematics solvers enabling multi‑objective optimisation for humanoid robots.</p>
+                </div>
+                <!-- ML pipelines -->
+                <div class="achievement-card">
+                    <i class="fas fa-network-wired fa-2x"></i>
+                    <h3>Structured ML Pipelines</h3>
+                    <p>Built ML pipelines combining rigid‑body dynamics (RNEA) with fully connected neural networks and Lagrangian Neural Networks for learning robot dynamics.</p>
+                </div>
+                <!-- Explainable AI -->
+                <div class="achievement-card">
+                    <i class="fas fa-eye fa-2x"></i>
+                    <h3>Explainable AI Models</h3>
+                    <p>Created interpretable torque prediction models using Transformers and Captum to visualise the contribution of each input.</p>
+                </div>
+                <!-- Academic & professional development -->
+                <div class="achievement-card">
+                    <i class="fas fa-certificate fa-2x"></i>
+                    <h3>Courses & Certifications</h3>
+                    <p>Continuously upskilling via ongoing courses like “C++ for Programmers” and “AI in Robotics”, and completed certifications including MIT OCW Linear Algebra and a Python bootcamp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-grid">
+                <!-- Blog post 1 -->
+                <div class="blog-card">
+                    <img src="img/project-placeholder.png" alt="Optimal Control blog post">
+                    <h3>Exploring Optimal Control: From Pontryagin to Reinforcement Learning</h3>
+                    <p>Delve into the principles of optimal control, learn about Pontryagin’s maximum principle and discover how reinforcement learning extends these ideas to high‑dimensional robotic systems.</p>
+                    <a href="#" class="project-link">Read more</a>
+                </div>
+                <!-- Blog post 2 -->
+                <div class="blog-card">
+                    <img src="img/project-placeholder.png" alt="Inverse kinematics blog post">
+                    <h3>Jacobian‑Based Inverse Kinematics Demystified</h3>
+                    <p>An intuitive introduction to Jacobian matrices, pseudo‑inverses and null‑space projections for resolving redundancy in robotic manipulators.</p>
+                    <a href="#" class="project-link">Read more</a>
+                </div>
+                <!-- Blog post 3 -->
+                <div class="blog-card">
+                    <img src="img/project-placeholder.png" alt="Reinforcement learning blog post">
+                    <h3>Reinforcement Learning for Robotics: Challenges & Opportunities</h3>
+                    <p>Discusses the promises and pitfalls of applying reinforcement learning to real‑world robots and shares insights from recent research and personal experience.</p>
+                    <a href="#" class="project-link">Read more</a>
                 </div>
             </div>
         </div>
@@ -150,18 +287,20 @@
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact</h2>
-            <p>If you’d like to get in touch, feel free to drop me a line. I’m open to collaborations, speaking engagements and interesting projects.</p>
+            <p>If you’d like to get in touch, feel free to drop me a line. I’m open to collaborations,
+                mentorship and interesting projects.</p>
             <div class="contact-details">
-                <p><i class="fas fa-envelope"></i> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">LinkedIn</a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:shubhamkamblerwth@gmail.com">shubhamkamblerwth@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/shubham-kamble007/" target="_blank">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Shubham1965" target="_blank">GitHub</a></p>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+            <!-- Footer automatically inserts current year via script -->
+            <p>&copy; <span id="current-year"></span> Shubham Kamble. All rights reserved.</p>
         </div>
     </footer>
 
