@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name – Portfolio</title>
+    <!-- Import Google Fonts for a clean, modern look -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font‑Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-QN9wok/h0BG/0ScQyZB4mRk2EDR+9WzztlJoekRCXt+5r/R9YCedFK5G695Y2Rhtg1FzUZwZkqJP7+pqsXGZSw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero / Landing section -->
+    <!-- Inline background-image attribute ensures the hero image loads correctly when viewed via the file protocol. -->
+    <header id="hero" style="background-image: url('img/hero.png')">
+        <nav class="navbar">
+            <div class="logo">Your Name</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+        </nav>
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+            <p class="tagline">A passionate <strong>software developer</strong> &amp; <strong>robotics enthusiast</strong></p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Placeholder image for your portrait; replace with your own photo -->
+                    <img src="img/profile-placeholder.png" alt="Your portrait">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Write a few sentences about yourself here. Introduce your background, your passion for
+                        robotics, AI or software development, and what drives you professionally. Mention any
+                        unique experiences that set you apart and emphasise your commitment to learning and
+                        innovation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section light-bg">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Example skill card; duplicate and replace icons/text to suit your abilities -->
+                <div class="skill-card">
+                    <i class="fab fa-python fa-2x"></i>
+                    <h3>Python</h3>
+                    <p>Experience with data analysis, machine learning and scripting.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square fa-2x"></i>
+                    <h3>JavaScript</h3>
+                    <p>Building interactive web applications and user interfaces.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot fa-2x"></i>
+                    <h3>Robotics</h3>
+                    <p>Controlling robotic systems and integrating sensors and actuators.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database fa-2x"></i>
+                    <h3>Databases</h3>
+                    <p>Designing and querying relational &amp; NoSQL databases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project card template -->
+                <div class="project-card">
+                    <img src="img/project-placeholder.png" alt="Project thumbnail">
+                    <h3>Project Title</h3>
+                    <p>Brief description of your project. Explain the problem it solves and the technologies used.</p>
+                    <a href="#" class="project-link">Learn more</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/project-placeholder.png" alt="Project thumbnail">
+                    <h3>Another Project</h3>
+                    <p>A short summary of another project. Keep descriptions concise and engaging.</p>
+                    <a href="#" class="project-link">Learn more</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/project-placeholder.png" alt="Project thumbnail">
+                    <h3>Third Project</h3>
+                    <p>This card can describe a research publication, open source contribution or hackathon entry.</p>
+                    <a href="#" class="project-link">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience/Education section -->
+    <section id="experience" class="section light-bg">
+        <div class="container">
+            <h2>Experience &amp; Education</h2>
+            <div class="timeline">
+                <!-- Timeline entry template -->
+                <div class="timeline-item">
+                    <span class="timeline-date">2022 – Present</span>
+                    <div class="timeline-content">
+                        <h3>Job Title</h3>
+                        <h4>Company / Institution</h4>
+                        <p>Describe your role and responsibilities. Focus on achievements and the impact you made.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2019 – 2021</span>
+                    <div class="timeline-content">
+                        <h3>Previous Position</h3>
+                        <h4>Organisation Name</h4>
+                        <p>Summarise what you worked on in this position. Mention any notable milestones.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2016 – 2019</span>
+                    <div class="timeline-content">
+                        <h3>PhD / Education</h3>
+                        <h4>University</h4>
+                        <p>Provide details of your degree, research topic or relevant coursework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you’d like to get in touch, feel free to drop me a line. I’m open to collaborations, speaking engagements and interesting projects.</p>
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
