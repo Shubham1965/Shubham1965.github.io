@@ -123,15 +123,15 @@ img {
     z-index: 200;
     background-color: var(--primary-color);
     border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
     box-shadow: var(--box-shadow);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -139,10 +139,6 @@ img {
 #theme-toggle:hover {
     background-color: var(--accent-color);
     transform: scale(1.05);
-}
-
-#theme-toggle:hover {
-    transform: scale(1.1);
 }
 
 /* When dark theme is active, change navbar text colours to match the main text colour */
@@ -156,6 +152,15 @@ body.dark-theme #theme-toggle {
 body.dark-theme #theme-toggle {
     background-color: var(--primary-color);
     color: #ffffff;
+}
+
+#theme-toggle i {
+    font-size: 1rem;
+}
+
+.theme-toggle-label {
+    font-weight: 600;
+    letter-spacing: 0.01em;
 }
 
 /* Hero section */
@@ -334,7 +339,8 @@ body.dark-theme #theme-toggle {
 .timeline {
     position: relative;
     margin: 2rem 0;
-    padding-left: 2rem;
+    --timeline-offset: 2.75rem;
+    padding-left: var(--timeline-offset);
     border-left: 3px solid var(--primary-color);
 }
 
@@ -346,12 +352,14 @@ body.dark-theme #theme-toggle {
 .timeline-item::before {
     content: '';
     position: absolute;
-    left: -10px;
-    top: 0;
+    left: calc(-9px - var(--timeline-offset));
+    top: 0.35rem;
     width: 18px;
     height: 18px;
     background-color: var(--primary-color);
     border-radius: 50%;
+    border: 3px solid var(--background-color);
+    box-shadow: 0 0 0 2px var(--primary-color);
 }
 
 .timeline-date {

@@ -15,6 +15,7 @@
 (function () {
     const body = document.body;
     const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleLabel = themeToggleBtn ? themeToggleBtn.querySelector('.theme-toggle-label') : null;
     const yearSpan = document.getElementById('current-year');
 
     // Set current year in footer
@@ -36,7 +37,7 @@
             body.classList.add('dark-theme');
         }
     }
-    updateToggleIcon();
+    updateToggleAppearance();
 
     // Listen for toggle button clicks
     if (themeToggleBtn) {
@@ -44,25 +45,37 @@
             const isDark = body.classList.toggle('dark-theme');
             // Save preference to localStorage
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            updateToggleIcon();
+            updateToggleAppearance();
         });
     }
 
     /**
-     * Update the icon inside the theme toggle button to reflect
-     * the current theme. A moon icon indicates that clicking will
-     * enable dark mode; a sun icon indicates light mode.
+     * Update the icon, text and accessible labels inside the theme toggle
+     * button to reflect the next available mode. When the interface is in
+     * dark mode the button invites the user to switch back to light mode,
+     * and vice versa.
      */
-    function updateToggleIcon() {
+    function updateToggleAppearance() {
         if (!themeToggleBtn) return;
         const icon = themeToggleBtn.querySelector('i');
+        if (!icon) return;
         const isDark = body.classList.contains('dark-theme');
         if (isDark) {
             icon.classList.remove('fa-moon');
             icon.classList.add('fa-sun');
+            if (themeToggleLabel) {
+                themeToggleLabel.textContent = 'Light mode';
+            }
+            themeToggleBtn.setAttribute('aria-label', 'Switch to light mode');
+            themeToggleBtn.setAttribute('title', 'Switch to light mode');
         } else {
             icon.classList.remove('fa-sun');
             icon.classList.add('fa-moon');
+            if (themeToggleLabel) {
+                themeToggleLabel.textContent = 'Dark mode';
+            }
+            themeToggleBtn.setAttribute('aria-label', 'Switch to dark mode');
+            themeToggleBtn.setAttribute('title', 'Switch to dark mode');
         }
     }
 })();
