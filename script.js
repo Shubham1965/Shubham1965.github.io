@@ -78,4 +78,33 @@
             themeToggleBtn.setAttribute('title', 'Switch to dark mode');
         }
     }
+
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (menuToggle && navLinks) {
+        const menuIcon = menuToggle.querySelector('i');
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = navLinks.dataset.open === 'true';
+            navLinks.dataset.open = (!isOpen).toString();
+            menuToggle.setAttribute('aria-expanded', (!isOpen).toString());
+            if (menuIcon) {
+                menuIcon.classList.toggle('fa-bars', isOpen);
+                menuIcon.classList.toggle('fa-xmark', !isOpen);
+            }
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.dataset.open = 'false';
+                menuToggle.setAttribute('aria-expanded', 'false');
+                if (menuIcon) {
+                    menuIcon.classList.add('fa-bars');
+                    menuIcon.classList.remove('fa-xmark');
+                }
+            });
+        });
+    }
+
 })();
